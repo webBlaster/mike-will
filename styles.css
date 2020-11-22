@@ -3,6 +3,10 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Open Sans", sans-serif;
+  overflow-y: scroll;
+}
+body::-webkit-scrollbar {
+  display: none;
 }
 .name {
   font-weight: 800;
@@ -29,11 +33,16 @@ body {
 .dark-overlay {
   height: 100vh;
   background: rgba(0, 0, 0, 0.37);
-  position: fixed;
+  position: absolute;
   z-index: 1000;
   top: 0;
   width: 100%;
   margin: 0;
+}
+
+.content h4 {
+  cursor: pointer;
+  margin: 60px;
 }
 
 @media screen and (max-width: 480px) {
@@ -47,4 +56,8 @@ body {
   .mobile-video {
     display: block !important;
   }
+}
+
+.work-section {
+  background: black;
 }
