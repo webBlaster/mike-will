@@ -15,9 +15,10 @@ body::-webkit-scrollbar {
 .name {
   font-weight: 900;
   font-size: 25px;
+  font-family: sans-serif;
 }
 .name-items {
-  margin-top: 1vh;
+  margin-top: 0.8vh;
   font-size: 20px;
 }
 .video-section {
@@ -26,6 +27,7 @@ body::-webkit-scrollbar {
   overflow: hidden;
   width: 100%;
   margin: 0;
+  padding: 0;
 }
 
 .desktop-video {
@@ -46,6 +48,12 @@ body::-webkit-scrollbar {
   top: 0;
   width: 100%;
   margin: 0;
+}
+
+.dark-overlay nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .content {
