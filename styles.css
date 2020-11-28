@@ -83,6 +83,13 @@ body::-webkit-scrollbar {
   }
 }
 
+.album-header {
+  background: black;
+  color: white;
+  margin: 0;
+  border-radius: 0;
+  padding: 50px;
+}
 .work-section {
   background: black;
   color: black;
@@ -107,6 +114,11 @@ body::-webkit-scrollbar {
 
 .work-section a {
   background: black;
+  border-color: black;
+}
+
+.work-section a:hover {
+  background: rgba(0, 0, 0, 0.726);
 }
 
 @media screen and (max-width: 480px) {
