@@ -85,4 +85,32 @@ body::-webkit-scrollbar {
 
 .work-section {
   background: black;
+  color: black;
+  white-space: nowrap;
+  overflow: auto;
+}
+.work-section::-webkit-scrollbar {
+  display: none;
+}
+
+.work-section .card {
+  width: 20%;
+  margin: 0 2%;
+  background: whitesmoke;
+  color: black;
+  display: inline-block;
+}
+.work-section p {
+  text-align: justify;
+  white-space: normal;
+}
+
+.work-section a {
+  background: black;
+}
+
+@media screen and (max-width: 480px) {
+  .work-section .card {
+    width: 70%;
+  }
 }
