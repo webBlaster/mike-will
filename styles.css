@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
 body {
+  transition: 0.5s;
   margin: 0;
   padding: 0;
   font-family: "Orbitron", sans-serif;
